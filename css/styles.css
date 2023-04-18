@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* Cambiar la medidad del rem.
+                        Antes 1rem=16px
+                        Ahora 1rem=10px */
+}
+
+body{ /* Asignar una tipografría en todo el proyecto */
+    font-family: 'Inconsolata', monospace; /* Fuente de google fonts */
+}
+
+#arriba {
+    color: white;
+    background-color: blueviolet;
+    position: fixed;
+    z-index: 10;
+}
+
+.parrafoAzul {
+    color: rgb(70, 99, 10);
+    font-size: 20px;
+    background-color: aquamarine;
+    height: 300px;
+    overflow: auto;
+
+}
+
+p {
+    color: 	#FFFF00;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    padding: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px;
+    background-color: #FFFF00;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contacto {
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 5px dashed red;
+    display: block;
+
+}
